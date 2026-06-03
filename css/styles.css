@@ -1,0 +1,211 @@
+/* Universal Selector Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://via.placeholder.com/1200x800");
+
+    background-color: rgba(240,240,240,0.8);
+
+    background-size: cover;
+
+    padding: 20px;
+}
+
+/* Header Styles */
+
+#mainHeader{
+
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+
+    padding: 15px;
+}
+
+/* Navigation Menu */
+
+nav ul{
+
+    list-style-type: none;
+}
+
+/* Navigation Items */
+
+nav ul li{
+
+    display: inline-block;
+
+    margin-right: 20px;
+
+    padding: 10px;
+}
+
+/* Link Styling */
+
+a:link{
+
+    color: white;
+
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: yellow;
+}
+
+a:active{
+
+    color: red;
+}
+
+a:visited{
+
+    color: lightgray;
+}
+
+/* Heading Styling */
+
+h2{
+
+    color: #333333;
+
+    margin-top: 20px;
+
+    font-size: 30px;
+}
+
+/* Group Selector */
+
+h3, p{
+
+    text-align: center;
+
+    line-height: 1.8;
+
+    letter-spacing: 1px;
+}
+
+/* Event Card */
+
+.eventCard{
+
+    background-color: rgba(255,255,255,0.9);
+
+    border: 2px solid #007BFF;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    outline: 2px dashed gray;
+}
+
+/* CTA Button */
+
+.cta-button{
+
+    background-color: #007BFF;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    font-weight: bold;
+}
+
+/* Table Styling */
+
+table{
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+th, td{
+
+    border: 1px solid black;
+
+    padding: 12px;
+}
+
+th{
+
+    background-color: #007BFF;
+
+    color: white;
+}
+
+/* Zebra Striping */
+
+tr:nth-child(even){
+
+    background-color: #f2f2f2;
+}
+
+/* Multi Column Layout */
+
+.news p{
+
+    column-count: 2;
+
+    column-gap: 30px;
+
+    column-rule: 1px solid gray;
+
+    margin-top: 20px;
+}
+
+/* Hidden Example */
+
+.hiddenBox{
+
+    visibility: hidden;
+}
+
+.noneBox{
+
+    display: none;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:768px){
+
+    nav ul li{
+
+        display: block;
+
+        margin: 10px 0;
+    }
+
+    h2{
+
+        font-size: 22px;
+    }
+
+    .eventCard{
+
+        width: 90%;
+    }
+
+    img{
+
+        width: 60vw;
+    }
+}
