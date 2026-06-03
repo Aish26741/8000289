@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10 - Navigation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+
+    <h1 class="text-center text-primary mb-4">
+        Bootstrap Navigation Components
+    </h1>
+
+    <!-- Exercise 10.1 -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                Student Portal
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="navbarContent">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2"
+                           type="search"
+                           placeholder="Search">
+
+                    <button class="btn btn-success">
+                        Search
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <hr class="my-5">
+
+    <!-- Exercise 10.2 -->
+
+    <h3>Nav Tabs</h3>
+
+    <ul class="nav nav-tabs mb-4">
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#">
+                Dashboard
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                Courses
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                Profile
+            </a>
+        </li>
+
+    </ul>
+
+    <h3>Nav Pills</h3>
+
+    <ul class="nav nav-pills">
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#">
+                Home
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                About
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                Services
+            </a>
+        </li>
+
+    </ul>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
