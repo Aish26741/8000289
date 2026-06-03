@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14 - Display and Visibility</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <h1 class="text-center text-primary mb-5">
+        Display and Visibility Utilities
+    </h1>
+
+    <!-- Exercise 14.1 -->
+
+    <div class="alert alert-danger d-none d-md-block">
+        This message is hidden on mobile devices and visible on tablets and desktops.
+    </div>
+
+    <div class="bg-success text-white p-3 rounded d-lg-flex justify-content-center">
+        This section becomes a flex container on large screens.
+    </div>
+
+    <hr class="my-5">
+
+    <!-- Exercise 14.2 -->
+
+    <div class="row">
+
+        <div class="col-md-3 d-none d-md-block">
+            <div class="bg-dark text-white p-3 rounded">
+                <h4>Sidebar</h4>
+                <ul class="list-unstyled">
+                    <li>Dashboard</li>
+                    <li>Courses</li>
+                    <li>Assignments</li>
+                    <li>Profile</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="bg-light p-4 rounded border">
+                <h3>Main Content Area</h3>
+                <p>
+                    This section is always visible. The sidebar appears only on tablets and larger screens.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
